@@ -1,5 +1,7 @@
 package by.kolbun.andersen;
 
+import java.util.List;
+
 public class DeveloperService {
 
     DeveloperDao dao = DeveloperDao.getInstance();
@@ -18,5 +20,14 @@ public class DeveloperService {
 
     public void deleteDeveloper(int id) {
         dao.delete(id);
+    }
+
+    public List getAllDevelopers() {
+        return dao.getAll();
+    }
+
+    public int addNewDeveloper(String name, String specialty, int salary) {
+        Developer dev = new Developer(name, specialty, salary);
+        return dao.create(dev);
     }
 }

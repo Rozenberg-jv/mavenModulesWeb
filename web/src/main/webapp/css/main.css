@@ -1,3 +1,15 @@
-div {
+.outer {
     background-color: #aaaaaa;
+    width: 45%;
+    alignment: center;
+    padding: 5px;
+}
+
+.block {
+    background-color: azure;
+}
+
+table {
+    border: 2px black;
+    border-collapse: separate;
 }

@@ -10,7 +10,7 @@ public class Developer {
     private Integer id;
     @Column(name = "name", length = 50)
     private String name;
-    @Column(name = "name", length = 50)
+    @Column(name = "specialty", length = 50)
     private String specialty;
     @Column(name = "salary")
     private Integer salary;

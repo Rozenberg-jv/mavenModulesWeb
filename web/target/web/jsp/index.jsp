@@ -1,13 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <html>
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>Main page</title>
-    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/main.css"/>
+    <title>Welcome!</title>
 </head>
 <body>
-<div>
-    ${message}
-</div>
+<a href="${pageContext.request.contextPath}/devs">to developers</a>
 </body>
 </html>
